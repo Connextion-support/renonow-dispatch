@@ -1,0 +1,22 @@
+{
+  "name": "dispatch-board-ghl",
+  "version": "2.0.0",
+  "description": "Visual dispatch board for GoHighLevel — Supabase + Google Maps + GHL API",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
